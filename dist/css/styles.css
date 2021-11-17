@@ -11485,6 +11485,14 @@ body {
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
+#mainNav .img-nav {
+  max-width: 19%;
+  height: auto;
+}
+#mainNav .img-home {
+  max-width: 19%;
+  height: auto;
+}
 #mainNav .navbar-brand {
   color: #000;
   font-weight: 700;
@@ -11697,4 +11705,8 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.display-img {
+  max-width: 40%;
 }

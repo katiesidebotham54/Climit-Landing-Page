@@ -1,6 +1,6 @@
-// 
+//
 // Styles
-// 
+//
 
 // Import variables
 @import "./variables.scss";
@@ -22,3 +22,7 @@
 @import "./sections/signup.scss";
 @import "./sections/contact.scss";
 @import "./sections/footer.scss";
+
+.display-img {
+  max-width: 40%;
+}

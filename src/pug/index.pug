@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container.px-4.px-lg-5
-                a.navbar-brand(href='#page-top') CliMit
+                img.img-nav(src='assets/img/CliMitLogoBlack.svg', alt='...')
                 button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
@@ -47,9 +47,8 @@ html(lang='en')
             .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
                 .d-flex.justify-content-center
                     .text-center
-                        h1.mx-auto.my-0.text-uppercase CliMit
-                        h2.text-white-50.mx-auto.mt-2.mb-5 The world's first AI-integrated climate defense consultant.
-                        a.btn.btn-primary(href='#about') Interested?
+                        img.mb-5.img-fluid(src='assets/img/CliMitLogoWhite-cropped.svg', alt='...')
+                        h2.text-white-50.mx-auto.mt-2.mb-5 Building a Climate-Resilient Future
 
         // About
         section#about.about-section.text-center
@@ -58,11 +57,62 @@ html(lang='en')
                     .col-lg-8
                         h2.text-white.mb-4 About CliMit
                         p.text-white-50
-                            | Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on 
-                            a(href='https://startbootstrap.com/theme/grayscale/') the preview page.
-                            | The theme is open source, and you can use it for any purpose, personal or commercial.
-                img.img-fluid(src='assets/img/ipad.png', alt='...')
+                            | CliMit was founded in 2021 by Rutgers University undergraduate Michael Panchery, and is composed solely of Rutgers students. 
+                            br
+                img.display-img(src='assets/img/laptop.png', alt='...')
 
+        //Mission Statement  
+        section#about.about-section.text-center
+                    .container.px-4.px-lg-5
+                        .row.gx-4.gx-lg-5.justify-content-center
+                            .col-lg-8
+                                h2.text-white.mb-4 Mission Statement
+                                p.text-white-50
+                                    | Storms are only growing stronger and more frequent as infrastructure weakens and lives are lost. 
+                                    | Society must adjust, and while there are many individuals determined to solve climate change, 
+                                    | we at CliMit are working to live with it. CliMit seeks to leverage new technologies with innovative ideas that will build safer, 
+                                    | more resilient communities against climate-induced disasters. The sustainability and welfare of future generations is our utmost priority. 
+        //Areas of Focus
+        section#projects.projects-section.text-center
+            .container.px-4.px-lg-5
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-lg-8
+                        h2 Areas of Focus
+                        br
+                // Project One Row
+                .row.gx-0.mb-4.justify-content-center
+                    .col-lg-3
+                        img.img-fluid(src='assets/img/FloodIcon.svg', alt='...')
+                        .bg-black.text-center.h-50
+                            .d-flex.h-100
+                                .w-100.mt-4.text-center.text-lg-left
+                                    h4.text-white Floods
+                                    hr.d-none.d-lg-block.mb-0.ms-0
+
+                    .col-lg-3
+                        img.img-fluid(src='assets/img/FireIcon.svg', alt='...')
+                        .bg-black.text-center.h-50
+                            .d-flex.h-100
+                                .w-100.mt-4.text-center.text-lg-left
+                                    h4.text-white Wildfires
+                                    hr.d-none.d-lg-block.mb-0.ms-0
+                    .col-lg-3
+                        img.img-fluid(src='assets/img/DroughtIcon.svg', alt='...')
+                        .bg-black.text-center.h-50
+                            .d-flex.h-100
+                                .w-100.mt-4.text-center.text-lg-left
+                                    h4.text-white Droughts
+                                    hr.d-none.d-lg-block.mb-0.ms-0
+                    .col-lg-3
+                        img.img-fluid(src='assets/img/LandslideIcon.svg', alt='...')
+                        .bg-black.text-center.h-50
+                            .d-flex.h-100
+                                .w-100.mt-4.text-center.text-lg-left
+                                    h4.text-white Landslides
+                                    hr.d-none.d-lg-block.mb-0.ms-0
+            .row.gx-0.mb-4.justify-content-center
+
+                
         // Projects
         section#projects.projects-section.text-center
             .container.px-4.px-lg-5
@@ -75,77 +125,77 @@ html(lang='en')
                 // Project One Row
                 .row.gx-0.mb-4.justify-content-center
                     .col-lg-3
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
+                        img.img-fluid(src='assets/img/Michael_Portrait.jpg', alt='...')
                         .bg-black.text-center.h-50
                             .d-flex.h-100
-                                .w-100.my-auto.text-center.text-lg-left
+                                .w-100.mt-4.text-center.text-lg-left
                                     h4.text-white Michael Panchery
                                     p.mb-0.text-white-50
                                         | Chief Executive Officer
                                     hr.d-none.d-lg-block.mb-0.ms-0
 
                     .col-lg-3
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
+                        img.img-fluid(src='assets/img/Katie_Portrait.jpg', alt='...')
                         .bg-black.text-center.h-50
                             .d-flex.h-100
-                                .w-100.my-auto.text-center.text-lg-left
+                                .w-100.mt-4.text-center.text-lg-left
                                     h4.text-white Katie Sidebotham
                                     p.mb-0.text-white-50
-                                        | Chief Technical Officer
+                                        | Chief Technical Officer & Chief Operating Officer
                                     hr.d-none.d-lg-block.mb-0.ms-0
                     .col-lg-3
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
+                        img.img-fluid(src='assets/img/Anna_Portrait.jpg', alt='...')
                         .bg-black.text-center.h-50
                             .d-flex.h-100
-                                .w-100.my-auto.text-center.text-lg-left
+                                .w-100.mt-4.text-center.text-lg-left
                                     h4.text-white Anna Fenkel
                                     p.mb-0.text-white-50
                                         | Chief Data Officer
                                     hr.d-none.d-lg-block.mb-0.ms-0
                     .col-lg-3
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
+                        img.img-fluid(src='assets/img/Josh_Portrait.jpg', alt='...')
                         .bg-black.text-center.h-50
                             .d-flex.h-100
-                                .w-100.my-auto.text-center.text-lg-left
+                                .w-100.mt-4.text-center.text-lg-left
                                     h4.text-white Josh Israel
                                     p.mb-0.text-white-50
                                         | Chief Research Officer
                                     hr.d-none.d-lg-block.mb-0.ms-0
 
-                .row.gx-0.mb-3.mb-lg-0.justify-content-center
+                .row.gx-0.mb-1.mb-lg-0.justify-content-center
                     .col-lg-3
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
-                        .bg-black.text-center.h-50
+                        img.img-fluid(src='assets/img/Jack_Portrait.jpg', alt='...')
+                        .bg-black.text-center.h-40
                             .d-flex.h-100
-                                .w-100.my-auto.text-center.text-lg-left
+                                .w-100.mt-5.text-center.text-lg-left
                                     h4.text-white Jack Ramirez
                                     p.mb-0.text-white-50
                                         | Public Relations Officer
                                     hr.d-none.d-lg-block.mb-0.ms-0
 
                     .col-lg-3
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
-                        .bg-black.text-center.h-50
+                        img.img-fluid(src='assets/img/Kal_Portrait.jpg', alt='...')
+                        .bg-black.text-center.h-40
                             .d-flex.h-100
-                                .w-100.my-auto.text-center.text-lg-left
+                                .w-100.mt-5.text-center.text-lg-left
                                     h4.text-white Kal Pandit
                                     p.mb-0.text-white-50
                                         | Chief Marketing Officer
                                     hr.d-none.d-lg-block.mb-0.ms-0
                     .col-lg-3
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
-                        .bg-black.text-center.h-50
+                        img.img-fluid(src='assets/img/Kai_Portrait.jpg', alt='...')
+                        .bg-black.text-center.h-40
                             .d-flex.h-100
-                                .w-100.my-auto.text-center.text-lg-left
+                                .w-100.mt-5.text-center.text-lg-left
                                     h4.text-white Kai Pandit
                                     p.mb-0.text-white-50
                                         | Chief Experience Officer
                                     hr.d-none.d-lg-block.mb-0.ms-0
                     .col-lg-3
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
-                        .bg-black.text-center.h-50
+                        img.img-fluid(src='assets/img/Claudia_Portrait.jpg', alt='...')
+                        .bg-black.text-center.h-40
                             .d-flex.h-100
-                                .w-100.my-auto.text-center.text-lg-left
+                                .w-100.mt-5.text-center.text-lg-left
                                     h4.text-white Claudia Santacruz
                                     p.mb-0.text-white-50
                                         | Secretary
@@ -156,72 +206,11 @@ html(lang='en')
             .container.px-4.px-lg-5
                 .row.gx-4.gx-lg-5
                     .col-md-10.col-lg-8.mx-auto.text-center
-                        i.far.fa-paper-plane.fa-2x.mb-2.text-white
-                        h2.text-white.mb-5 Subscribe to receive updates!
+                        h2.text-white.mb-5 BETA COMING 2022
+                        p.text-white-50
+                            |Receive email updates
+                        a.btn.btn-primary(href='https://form.jotform.com/212167132798056') Join Our Team
 
-                        // * * * * * * * * * * * * * * *
-                        // * * SB Forms Contact Form * *
-                        // * * * * * * * * * * * * * * *
-
-                        // This form is pre-integrated with SB Forms.
-                        // To make this form functional, sign up at
-                        // https://startbootstrap.com/solution/contact-forms
-                        // to get an API token!
-                        
-                        form#contactForm.form-signup(data-sb-form-api-token='API_TOKEN')
-
-                            // Email address input
-
-                            .row.input-group-newsletter
-                                .col
-                                    input#emailAddress.form-control(
-                                        type='email',
-                                        placeholder='Enter email address...',
-                                        aria-label='Enter email address...',
-                                        data-sb-validations='required,email'
-                                    )
-                                .col-auto
-                                    button#submitButton.btn.btn-primary.disabled(type='submit') Notify Me!
-                            .invalid-feedback.mt-2(data-sb-feedback='emailAddress:required')
-                                | An email is required.
-                            .invalid-feedback.mt-2(data-sb-feedback='emailAddress:email')
-                                | Email is not valid.
-
-                            // Submit success message
-                            //
-                            // This is what your users will see when the form
-                            // has successfully submitted
-
-                            #submitSuccessMessage.d-none
-                                .text-center.mb-3.mt-2.text-white
-                                    .fw-bolder Form submission successful!
-                                    | To activate this form, sign up at
-                                    br
-                                    a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-
-                            // Submit error message
-                            //
-                            // This is what your users will see when there is
-                            // an error submitting the form
-
-                            #submitErrorMessage.d-none
-                                .text-center.text-danger.mb-3.mt-2 Error sending message!
-
-        // Contact
-        section.contact-section.bg-black
-            .container.px-4.px-lg-5
-            form(action='/add_movie', method='POST')
-                p
-                | title: 
-                input(type='text', name='title', value='')
-                |          year: 
-                input(type='text', name='year', value='')
-                |          imdb: 
-                input(type='text', name='imdb', value='')
-                input(type='submit', value='Submit')
-                .social.d-flex.justify-content-center
-                    a.mx-2(href='#!')
-                        i.fab.fa-instagram
                     
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
